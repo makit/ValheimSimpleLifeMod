@@ -12,8 +12,8 @@ namespace ValheimSimpleLifeMod
         #region[Declarations]
 
         public const string
-            MODNAME = "NoStaminaSneak",
-            AUTHOR = "MrPurple6411",
+            MODNAME = "SimpleLifeMod",
+            AUTHOR = "makit",
             GUID = AUTHOR + "_" + MODNAME,
             VERSION = "1.0.0.0";
 

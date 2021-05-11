@@ -327,6 +327,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PlayerJumpStamina.cs" />
     <Compile Include="SilverBeePatch.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="InventoryIsTeleportablePatch.cs" />

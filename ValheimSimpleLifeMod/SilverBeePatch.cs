@@ -9,16 +9,15 @@ namespace ValheimSimpleLifeMod
 		private static void Postfix(ref Beehive __instance)
 		{
 			var rnd = new Random();
-			if(rnd.Next(100) > 50)
+			if(rnd.Next(100) > 80) 
             {
-				var silverOre = ObjectDB.instance.GetItemPrefab("Silver").GetComponent<ItemDrop>();
-				__instance.m_honeyItem = silverOre;
+				var silver = ObjectDB.instance.GetItemPrefab("Silver").GetComponent<ItemDrop>();
+				__instance.m_honeyItem = silver;
 			}
 
-			__instance.m_maxHoney = 20;
-
 			// For testing... or cheating
-			// __instance.m_secPerUnit = 60;
+			//__instance.m_maxHoney = 30;
+			//__instance.m_secPerUnit = 30;
 		}
 	}
 }
